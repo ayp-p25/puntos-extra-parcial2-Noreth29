@@ -8,6 +8,6 @@ for dato in entrada:
         if numero % int(dato) == 0:
             contador += 1
 
-print(f"El numero {numero} tiene {contador} divisores")
+print(contador)
 
 #3 errores= int(entrada), dato != "0" y if numero % int (dato).
